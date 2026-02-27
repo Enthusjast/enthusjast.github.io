@@ -19,21 +19,22 @@
   <meta name="author" content="FuzhuMC">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Hello world!">
+    <meta name="description" content="对于直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$, 欲判定二者是否相切,常规的办法是联立消去 $x$ (或 $y$), 得到一个关于 $y$ (或 $x$) 的一元二次方程,然后判定其判别式是否为零.但这样计算复杂.事实上,我们有如下定理  定理直线 $l: Ax +">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://fuzhumc.github.io/2026/02/23/hello-world/index.html">
+<meta property="og:title" content="直线与椭圆相切的充要条件">
+<meta property="og:url" content="https://fuzhumc.github.io/maths/2026/%E7%9B%B4%E7%BA%BF%E4%B8%8E%E6%A4%AD%E5%9C%86%E7%9B%B8%E5%88%87%E7%9A%84%E5%85%85%E8%A6%81%E6%9D%A1%E4%BB%B6/index.html">
 <meta property="og:site_name" content="FuzhuMC&#39;s Blog">
-<meta property="og:description" content="Hello world!">
+<meta property="og:description" content="对于直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$, 欲判定二者是否相切,常规的办法是联立消去 $x$ (或 $y$), 得到一个关于 $y$ (或 $x$) 的一元二次方程,然后判定其判别式是否为零.但这样计算复杂.事实上,我们有如下定理  定理直线 $l: Ax +">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-02-23T14:28:47.000Z">
-<meta property="article:modified_time" content="2026-02-23T15:39:07.017Z">
+<meta property="article:published_time" content="2026-02-24T14:46:54.000Z">
+<meta property="article:modified_time" content="2026-02-26T11:21:42.325Z">
 <meta property="article:author" content="FuzhuMC">
+<meta property="article:tag" content="maths">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Hello World - FuzhuMC&#39;s Blog</title>
+  <title>直线与椭圆相切的充要条件 - FuzhuMC&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -212,7 +213,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="直线与椭圆相切的充要条件"></span>
           
         </div>
 
@@ -223,8 +224,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2026-02-23 22:28" pubdate>
-          2026年2月23日 晚上
+        <time datetime="2026-02-24 22:46" pubdate>
+          2026年2月24日 晚上
         </time>
       </span>
     
@@ -267,12 +268,45 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header">直线与椭圆相切的充要条件</h1>
             
             
               <div class="markdown-body">
                 
-                <p>Hello world!</p>
+                <p>对于直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$, 欲判定二者是否相切,常规的办法是联立消去 $x$ (或 $y$), 得到一个关于 $y$ (或 $x$) 的一元二次方程,然后判定其判别式是否为零.但这样计算复杂.事实上,我们有如下定理</p>
+<blockquote>
+<p><strong>定理</strong><br>直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$ 相切的充分必要条件是<br>$$ A^2a^2 + B^2b^2 &#x3D; C^2 $$</p>
+</blockquote>
+<p>接下来我们给出三种证法.</p>
+<h3 id="法一"><a href="#法一" class="headerlink" title="法一"></a>法一</h3><ol>
+<li>若 $l$ 与 $\Gamma$ 相切,设切点为 $P(x_0, y_0)$.<br>$\Gamma$ 在 $P$ 处的切线方程为 $\dfrac{x_0x}{a^2} + \dfrac{y_0y}{b^2} &#x3D; 1$. 因此<br>$$ \begin{cases} \dfrac{x_0}{a^2} &#x3D; -\dfrac{A}{C} \\ \dfrac{y_0}{b^2} &#x3D; -\dfrac{B}{C} \end{cases} $$<br>解得<br>$$ \begin{cases} x_0 &#x3D; -\dfrac{Aa^2}{C} \\ y_0 &#x3D; -\dfrac{Bb^2}{C} \end{cases} $$<br>由 $P$ 在 $l$ 上知 $Ax_0 + By_0 + C &#x3D; 0$, 代入知 $A^2a^2 + B^2b^2 &#x3D; C^2$.</li>
+<li>若 $A^2a^2 + B^2b^2 &#x3D; C^2$, 取点 $P(x_0, y_0)$, 其中<br>$$ \begin{cases} x_0 &#x3D; -\dfrac{Aa^2}{C} \\ y_0 &#x3D; -\dfrac{Bb^2}{C} \end{cases} $$<br>由<br>$$ \dfrac{x_0^2}{a^2} + \dfrac{y_0^2}{b^2} &#x3D; \dfrac{A^2a^4}{a^2C^2} + \dfrac{B^2b^4}{b^2C^2} &#x3D; \dfrac{A^2a^2 + B^2b^2}{C^2} &#x3D; 1 $$<br>知点 $P$ 在 $\Gamma$ 上.进而 $P$ 处的切线方程为 $\dfrac{x_0x}{a^2} + \dfrac{y_0y}{b^2} &#x3D; 1$.<br>即 $-\dfrac{A}{C} x - \dfrac{B}{C} y &#x3D; 1$, 亦即 $Ax + By + C &#x3D; 0$.<br>因此 $l$ 与 $\Gamma$ 相切.</li>
+</ol>
+<p>综合 步骤 1 与 步骤 2, 定理得证.</p>
+<blockquote>
+<p><strong>注</strong><br>证明过程中运用了椭圆上一点处的切线公式 $\dfrac{x_0x}{a^2} + \dfrac{y_0y}{b^2} &#x3D; 1$.</p>
+</blockquote>
+<h3 id="法二"><a href="#法二" class="headerlink" title="法二"></a>法二</h3><p>作仿射变换 $x’ &#x3D; \dfrac{x}{a}, y’ &#x3D; \dfrac{y}{b}$, 则 $\Gamma’: x’^2 + y’^2 &#x3D; 1$ 为单位圆,$l’: Aax’ + Bby’ + C &#x3D; 0$, 则原点到 $l’$ 的距离为</p>
+<p>$$ d &#x3D; \dfrac{|C|}{\sqrt{A^2a^2 + B^2b^2}} $$</p>
+<p>因此</p>
+<p>$$ \begin{aligned} l \text{与} \Gamma \text{相切} &amp; \iff l’ \text{与} \Gamma’ \text{相切} \\ &amp; \iff d &#x3D; 1 \\ &amp; \iff A^2a^2 + B^2b^2 &#x3D; C^2 \end{aligned} $$</p>
+<p>定理得证.</p>
+<h3 id="法三"><a href="#法三" class="headerlink" title="法三"></a>法三</h3><p>当 $l$ 过原点时,显然 $l$ 与 $\Gamma$ 相交,且 $A^2a^2 + B^2b^2 &#x3D; C^2$.<br>当 $l$ 不过原点时,考虑齐次化 $1 &#x3D; -\dfrac{Ax + By}{C}$, 代入 $\Gamma$ 的方程得</p>
+<p>$$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; \dfrac{(Ax + By)^2}{C^2} $$</p>
+<p>同除 $x^2$ 化简得</p>
+<p>$$ (B^2a^2b^2 - a^2C^2) \left( \dfrac{y}{x} \right)^2 + (2ABa^2b^2) \left( \dfrac{y}{x} \right) + (A^2a^2b^2 - b^2C^2) &#x3D; 0 $$</p>
+<p>其判别式为</p>
+<p>$$ \begin{aligned} \Delta &amp; &#x3D; (2ABa^2b^2)^2 - 4(B^2a^2b^2 - a^2C^2)(A^2a^2b^2 - b^2C^2) \\ &amp; &#x3D; 4A^2B^2a^4b^4 - 4(B^2a^2b^2 - a^2C^2)(A^2a^2b^2 - b^2C^2) \\ &amp; &#x3D; 4a^2b^2C^2(A^2a^2 + B^2b^2 - C^2) \end{aligned} $$</p>
+<p>故 $l$ 与 $\Gamma$ 相切 $\iff \Delta &#x3D; 0 \iff A^2a^2 + B^2b^2 &#x3D; C^2$. 定理得证.</p>
+<p>对于中心不在原点处的椭圆,我们有如下推广的定理.</p>
+<blockquote>
+<p><strong>定理 2</strong><br>直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{(x - x_0)^2}{a^2} + \dfrac{(y - y_0)^2}{b^2} &#x3D; 1$ 相切的充分必要条件是<br>$$ A^2a^2 + B^2b^2 &#x3D; (Ax_0 + By_0 + C)^2 $$</p>
+</blockquote>
+<p>对于双曲线,我们也有类似的定理.</p>
+<blockquote>
+<p><strong>定理 3</strong><br>直线 $l: Ax + By + C &#x3D; 0$ 与双曲线 $\Gamma: \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} &#x3D; 1$ 相切的充分必要条件是<br>$$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
+</blockquote>
+<p>定理 2 与 定理 3 的证明留给读者思考.</p>
 
                 
               </div>
@@ -281,6 +315,34 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/maths/" class="category-chain-item">maths</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/maths/" class="print-no-link">#maths</a>
+      
+    </div>
   
 </div>
 
@@ -290,8 +352,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>https://fuzhumc.github.io/2026/02/23/hello-world/</div>
+      <div>直线与椭圆相切的充要条件</div>
+      <div>https://fuzhumc.github.io/maths/2026/直线与椭圆相切的充要条件/</div>
     </div>
     <div class="license-meta">
       
@@ -303,7 +365,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2026年2月23日</div>
+          <div>2026年2月24日</div>
         </div>
       
       
@@ -347,15 +409,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2026/02/23/test/" title="test">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">test</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/test/2026/test-math/" title="test-math">
+                        <span class="hidden-mobile">test-math</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
