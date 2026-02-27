@@ -279,9 +279,15 @@
 <h2 id="1-Inline-Math"><a href="#1-Inline-Math" class="headerlink" title="1. Inline Math"></a>1. Inline Math</h2><p>Simple inline equations: $E &#x3D; mc^2$, $a^2 + b^2 &#x3D; c^2$, and $\alpha + \beta &#x3D; \gamma$.</p>
 <p>The quadratic formula: $x &#x3D; \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ solves $ax^2 + bx + c &#x3D; 0$.</p>
 <hr>
-<h2 id="2-Display-Math"><a href="#2-Display-Math" class="headerlink" title="2. Display Math"></a>2. Display Math</h2><p>$$<br>\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}<br>$$</p>
-<p>$$<br>\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n &#x3D; e<br>$$</p>
-<p>$$<br>\sum_{k&#x3D;1}^{n} k &#x3D; \frac{n(n+1)}{2}<br>$$</p>
+<h2 id="2-Display-Math"><a href="#2-Display-Math" class="headerlink" title="2. Display Math"></a>2. Display Math</h2><p>$$
+\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}
+$$</p>
+<p>$$
+\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n &#x3D; e
+$$</p>
+<p>$$
+\sum_{k&#x3D;1}^{n} k &#x3D; \frac{n(n+1)}{2}
+$$</p>
 <hr>
 <h2 id="3-Fractions-Roots"><a href="#3-Fractions-Roots" class="headerlink" title="3. Fractions &amp; Roots"></a>3. Fractions &amp; Roots</h2><p>Inline: $\frac{1}{2}$, $\dfrac{a+b}{c+d}$</p>
 <p>Nested: $\frac{1}{1 + \frac{1}{x}}$</p>
@@ -304,20 +310,59 @@
 <h3 id="Arrows"><a href="#Arrows" class="headerlink" title="Arrows"></a>Arrows</h3><p>$\rightarrow$ $\leftarrow$ $\leftrightarrow$ $\Rightarrow$ $\Leftarrow$ $\Leftrightarrow$ $\mapsto$</p>
 <hr>
 <h2 id="7-Calculus"><a href="#7-Calculus" class="headerlink" title="7. Calculus"></a>7. Calculus</h2><h3 id="Derivatives"><a href="#Derivatives" class="headerlink" title="Derivatives"></a>Derivatives</h3><p>Inline: $\frac{dy}{dx}$, $\frac{d^2y}{dx^2}$, $f’(x)$, $\partial_t u$</p>
-<p>Display:<br>$$<br>\frac{d}{dx}\left[\int_0^x f(t),dt\right] &#x3D; f(x)<br>$$</p>
+<p>Display:
+$$
+\frac{d}{dx}\left[\int_0^x f(t),dt\right] &#x3D; f(x)
+$$</p>
 <h3 id="Integrals"><a href="#Integrals" class="headerlink" title="Integrals"></a>Integrals</h3><p>Single: $\int f(x),dx$</p>
 <p>Definite: $\int_a^b f(x),dx$</p>
 <p>Double&#x2F;Triple: $\iint_R f,dA$, $\iiint_V f,dV$</p>
 <p>Contour: $\oint_C \mathbf{F} \cdot d\mathbf{r}$</p>
 <hr>
-<h2 id="8-Matrices-Arrays"><a href="#8-Matrices-Arrays" class="headerlink" title="8. Matrices &amp; Arrays"></a>8. Matrices &amp; Arrays</h2><h3 id="Basic-Matrix"><a href="#Basic-Matrix" class="headerlink" title="Basic Matrix"></a>Basic Matrix</h3><p>$$<br>A &#x3D; \begin{pmatrix}<br>a &amp; b \\<br>c &amp; d<br>\end{pmatrix}<br>$$</p>
-<h3 id="Bracket-Variants"><a href="#Bracket-Variants" class="headerlink" title="Bracket Variants"></a>Bracket Variants</h3><p>$$<br>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}<br>\quad<br>\begin{Bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{Bmatrix}<br>\quad<br>\begin{vmatrix} a &amp; b \\ c &amp; d \end{vmatrix}<br>$$</p>
-<h3 id="Large-Matrix"><a href="#Large-Matrix" class="headerlink" title="Large Matrix"></a>Large Matrix</h3><p>$$<br>\begin{pmatrix}<br>a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n} \\<br>a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} \\<br>\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\<br>a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}<br>\end{pmatrix}<br>$$</p>
-<h3 id="Augmented-Matrix"><a href="#Augmented-Matrix" class="headerlink" title="Augmented Matrix"></a>Augmented Matrix</h3><p>$$<br>\left[\begin{array}{cc|c}<br>1 &amp; 2 &amp; 5 \\<br>3 &amp; 4 &amp; 6<br>\end{array}\right]<br>$$</p>
+<h2 id="8-Matrices-Arrays"><a href="#8-Matrices-Arrays" class="headerlink" title="8. Matrices &amp; Arrays"></a>8. Matrices &amp; Arrays</h2><h3 id="Basic-Matrix"><a href="#Basic-Matrix" class="headerlink" title="Basic Matrix"></a>Basic Matrix</h3><p>$$
+A &#x3D; \begin{pmatrix}
+a &amp; b \\
+c &amp; d
+\end{pmatrix}
+$$</p>
+<h3 id="Bracket-Variants"><a href="#Bracket-Variants" class="headerlink" title="Bracket Variants"></a>Bracket Variants</h3><p>$$
+\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}
+\quad
+\begin{Bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{Bmatrix}
+\quad
+\begin{vmatrix} a &amp; b \\ c &amp; d \end{vmatrix}
+$$</p>
+<h3 id="Large-Matrix"><a href="#Large-Matrix" class="headerlink" title="Large Matrix"></a>Large Matrix</h3><p>$$
+\begin{pmatrix}
+a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n} \\
+a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}
+\end{pmatrix}
+$$</p>
+<h3 id="Augmented-Matrix"><a href="#Augmented-Matrix" class="headerlink" title="Augmented Matrix"></a>Augmented Matrix</h3><p>$$
+\left[\begin{array}{cc|c}
+1 &amp; 2 &amp; 5 \\
+3 &amp; 4 &amp; 6
+\end{array}\right]
+$$</p>
 <hr>
-<h2 id="9-Piecewise-Functions"><a href="#9-Piecewise-Functions" class="headerlink" title="9. Piecewise Functions"></a>9. Piecewise Functions</h2><p>$$<br>f(x) &#x3D;<br>\begin{cases}<br>x^2 &amp; \text{if } x &lt; 0 \\<br>0   &amp; \text{if } x &#x3D; 0 \\<br>\sqrt{x} &amp; \text{if } x &gt; 0<br>\end{cases}<br>$$</p>
+<h2 id="9-Piecewise-Functions"><a href="#9-Piecewise-Functions" class="headerlink" title="9. Piecewise Functions"></a>9. Piecewise Functions</h2><p>$$
+f(x) &#x3D; 
+\begin{cases} 
+x^2 &amp; \text{if } x &lt; 0 \\
+0   &amp; \text{if } x &#x3D; 0 \\
+\sqrt{x} &amp; \text{if } x &gt; 0
+\end{cases}
+$$</p>
 <hr>
-<h2 id="10-Aligning-Equations"><a href="#10-Aligning-Equations" class="headerlink" title="10. Aligning Equations"></a>10. Aligning Equations</h2><p>$$<br>\begin{align}<br>(a+b)^2 &amp;&#x3D; (a+b)(a+b) \\<br>        &amp;&#x3D; a^2 + ab + ba + b^2 \\<br>        &amp;&#x3D; a^2 + 2ab + b^2<br>\end{align}<br>$$</p>
+<h2 id="10-Aligning-Equations"><a href="#10-Aligning-Equations" class="headerlink" title="10. Aligning Equations"></a>10. Aligning Equations</h2><p>$$
+\begin{align}
+(a+b)^2 &amp;&#x3D; (a+b)(a+b) \\
+        &amp;&#x3D; a^2 + ab + ba + b^2 \\
+        &amp;&#x3D; a^2 + 2ab + b^2
+\end{align}
+$$</p>
 <hr>
 <h2 id="11-Special-Functions"><a href="#11-Special-Functions" class="headerlink" title="11. Special Functions"></a>11. Special Functions</h2><ul>
 <li>Trigonometric: $\sin(x)$, $\cos(x)$, $\tan(x)$, $\sec(x)$</li>
@@ -331,7 +376,14 @@
 <hr>
 <h2 id="13-Spacing-Formatting"><a href="#13-Spacing-Formatting" class="headerlink" title="13. Spacing &amp; Formatting"></a>13. Spacing &amp; Formatting</h2><p>Tight: $ab$<br>Small space: $a,b$<br>Medium: $a;b$<br>Large: $a\quad b$<br>Extra large: $a\qquad b$</p>
 <hr>
-<h2 id="14-Complex-Example-Maxwell’s-Equations"><a href="#14-Complex-Example-Maxwell’s-Equations" class="headerlink" title="14. Complex Example: Maxwell’s Equations"></a>14. Complex Example: Maxwell’s Equations</h2><p>$$<br>\begin{align}<br>\nabla \cdot \mathbf{E} &amp;&#x3D; \frac{\rho}{\varepsilon_0} \\<br>\nabla \cdot \mathbf{B} &amp;&#x3D; 0 \\<br>\nabla \times \mathbf{E} &amp;&#x3D; -\frac{\partial \mathbf{B}}{\partial t} \\<br>\nabla \times \mathbf{B} &amp;&#x3D; \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}<br>\end{align}<br>$$</p>
+<h2 id="14-Complex-Example-Maxwell’s-Equations"><a href="#14-Complex-Example-Maxwell’s-Equations" class="headerlink" title="14. Complex Example: Maxwell’s Equations"></a>14. Complex Example: Maxwell’s Equations</h2><p>$$
+\begin{align}
+\nabla \cdot \mathbf{E} &amp;&#x3D; \frac{\rho}{\varepsilon_0} \\
+\nabla \cdot \mathbf{B} &amp;&#x3D; 0 \\
+\nabla \times \mathbf{E} &amp;&#x3D; -\frac{\partial \mathbf{B}}{\partial t} \\
+\nabla \times \mathbf{B} &amp;&#x3D; \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}
+\end{align}
+$$</p>
 <hr>
 <h2 id="15-Common-Pitfalls-Tips"><a href="#15-Common-Pitfalls-Tips" class="headerlink" title="15. Common Pitfalls &amp; Tips"></a>15. Common Pitfalls &amp; Tips</h2><p>✅ Use <code>\,</code> before differentials: $\int f(x),dx$<br>✅ Use <code>\left</code>&#x2F;<code>\right</code> for auto-sizing: $\left(\frac{a}{b}\right)$<br>✅ Use <code>\text{}</code> for words in math: $x_{\text{max}}$<br>❌ Avoid: <code>$sin(x)$</code> → ✅ Use: <code>$\sin(x)$</code></p>
 <hr>
